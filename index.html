@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inserindo informações na página">
+    <meta name="author" content="Leticia Koeskes">
+    <meta name="keywords" content="Imagem, link, texto">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="estilo.css">
+    <title>HTML1</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="user">
+            <img src="imagens\euu.png" alt="">
+            <h3 class="name">Leticia Koeskes</h3>
+            <p class="post">Estudante de tecnologia</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#education">Educação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contatos</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <section class="home" id="home">
+        <h3>Olá!</h3>
+        <h1>Eu me chamo <span>Leticia</span></h1>
+        <p>
+            O objetivo desse portifólio é poder demonstrar minha evolução como estudante e poder mostrar alguns lugares
+            pelos quais já trabalhei.
+        </p>
+        <p>Atualmente curso Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul e curso full stack
+            Java no instituto PROA.</p>
+
+        <a href="#about"><button class="btn">Sobre mim <i class="fas.fa-user"></i></button></a>
+
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span>Sobre</span> mim </h1>
+
+        <div class="row">
+            <div class="info">
+                <h3> <span> Nome: </span> Leticia Koeskes </h3>
+                <h3> <span> Idade: </span> 20 anos </h3>
+                <h3> <span> post : </span> Estudante de tecnologia </h3>
+                <h3> <span> Idioma: </span> Português </h3>
+                <a href="#"><button class="btn"> Download Currículo <i class="fas fa-download"></i> </button></a>
+            </div>
+
+            <div class="counter">
+
+                <div class="box">
+                    <span>1</span>
+                    <h3>Ano trabalhando na empresa LLumtech</h3>
+                </div>
+
+                <div class="box">
+                    <span>1 </span>
+                    <h3>Ano trabalhando na empresa Castanha</h3>
+                </div>
+
+    </section>
+
+    <section class="education" id="education">
+
+        <h1 class="heading"> Minha <span>educação</span> </h1>
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h3>Curso de idiomas</h3>
+                <p>Fiz curso de inglês na empresa Wizard de 10/02/2018 à 14/12/2019</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019</span>
+                <h3>Formação escolar</h3>
+                <p>Me formei no ensino médio, onde estudei por um ano na escola Escola Estadual Prof. Manuel Ciridião
+                    Buarque e cursei os 2 últimos anos do ensino médio na Escola Estadual Antônio Francisco Redondo. </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>ADS</h3>
+                <p>Curso Análise e desenvolvimento na Universidade cruzeiro do sul desde fev de 2022.</p>
+            </div>
+
+
+
+
+            <div class="box">
+                <img src="imagens\img1.jpg" alt="" width="200px" height="">
+            </div>
+
+            <div class="box">
+                <img src="imagens\img 2.jpg" alt="" width="200px" height="">
+            </div>
+
+            <div class="box">
+                <img src="imagens\img3.jpg" alt="" width="200px" height="">
+            </div>
+
+            <div class="box">
+                <img src="imagens\imagem 4.jpg" alt="" width="200px" height="">
+            </div>
+
+            <div class="box">
+                <img src="imagens\img5.jpg" alt="" width="200px" height="">
+            </div>
+
+            <div class="box">
+                <img src="imagens\img6.jpg" alt="" width="200px" height="">
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Contatos</span></h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">Meus contatos</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i>leticia.koeskes@hotmail.com </h3>
+                    <h3> <i class="fas fa-phone"></i> (11)9.9961-1203 </h3>
+
+                    <h3> <i class="fas fa-map-marker-alt"></i> São Paulo, SP. </h3>
+                </div>
+
+            </div>
+
+            <form action="">
+
+                <input type="text" placeholder="Nome" class="box">
+                <input type="email" placeholder="E-mail" class="box">
+                <!-- <input type="text" placeholder="project" class="box"> -->
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Mensagem"></textarea>
+                <button type="submit" class="btn"> Enviar <i class="fas fa-paper-plane"></i> </button>
+
+            </form>
+
+            <!-- <a href="#home" class="top">
+            <img src="images/scroll-top-img.png" alt="">
+        </a> -->
+
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
